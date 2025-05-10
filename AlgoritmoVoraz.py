@@ -11,4 +11,4 @@ for de in denominaciones:
         
 print("cantidad por denominación :")
 for i in range(len(denominaciones)):
-    print(f"{cantidades[i]} de ${denominaciones[i]}")
+    print(f"{cantidades[i]} de s/.{denominaciones[i]}")
